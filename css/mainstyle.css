@@ -1,0 +1,65 @@
+.dicetower {
+align-content: center;
+background-color: black;
+border: 3px ridge red;
+margin-top: 10px;
+width: 500px;
+min-height: 500px;
+text-align: center;
+vertical-align: middle;
+margin: auto;
+
+}
+
+body {
+    background-image: url("../img/papyrustexture.jpg");
+}
+
+img.diceimg {
+    width: 100px;
+    height: 100px;
+    cursor: move;
+    float: left;
+    
+}
+
+.dicepouch {
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    border: 3px ridge blue;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+   
+}
+
+.dice {
+    
+}
+
+header {
+    text-align: center;
+    font-size: 36pt;
+    font-weight: bold;
+    
+}
+
+.Random {
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    width: 100px;
+    border: 3px ridge white;
+    margin-top: 10px;
+}
+button {
+    margin: auto;
+    margin-top: 10px;
+}
+.watermark {
+    width: 1001px;
+    margin: auto;
+    background: linear-gradient(transparent, black);
+    margin-top: 70px;
+}

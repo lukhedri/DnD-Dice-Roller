@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="css/mainstyle.css" type="text/css"/>
+        <title>Online Dice Roller (5e)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javascript/mainscript.js" type="text/javascript"></script>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>Online Dice Roller</header>
+        <div class="dicetower" id="tower" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        <div class="Random" style=' color: white'>
+            Your total is...
+
+            <div id='finally'> 
+            </div>
+        </div>
+        <h2 style="text-align: center">Drag a dice to the tower to add it to your dice that are bring rolled!</h2>
+        <div class="dicepouch" id= "dicetray" ondragover="allowDrop (event)" ondrop="drop(event)">
+            <img src="img/d20.jpg" class="diceimg dice" id= "0" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" />
+            <img src="img/d12.jpg" class="diceimg dice" id="100" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"/>
+            <img src="img/d10.jpg" class="diceimg dice" id="200" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"/>
+            <img src="img/d8.jpg" class="diceimg dice" id= "300" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"/>
+            <img src="img/d6.jpg" class="diceimg dice" id= "400" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"/>
+            <img src="img/d4.jpg" class="diceimg dice" id= "500" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"/>
+
+        </div>
+        <div style=' text-align: center'>
+        <button onclick="resetplan(event)">Reset</button>
+        <button onclick="roll(event)">Roll it!</button>
+        </div>
+        <div class="watermark" style="color: white">A 'Team Gold' creation!
+            'Team Gold' members are: Matthew "Peach" Kruze, Luke "Lukinator70" Hedrick, Jared "Noop Noop" Westerfield.
+        </div>
+    </body>
+</html>
